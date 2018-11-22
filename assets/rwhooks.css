@@ -1,0 +1,327 @@
+
+.rwrdfndsentiment-ct {
+	position: fixed;
+    bottom: 0;
+    z-index: 29999999999999;
+    left: 50%;
+    width: 480px;
+    margin-left: -220px;
+    background: #000;
+    border-top-right-radius: 30px;
+    -webkit-border-top-right-radius: 30px;
+    -moz-border-radius-topright: 30px;
+    border-top-left-radius: 30px;
+    -webkit-border-top-left-radius: 30px;
+    -moz-border-radius-topleft: 30px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-align: left;
+    padding: 2px 32px;
+    text-align: left;
+	-webkit-transition: bottom 500ms ease-in;
+	-moz-transition: bottom 500ms ease-in;
+	-o-transition: bottom 500ms ease-in;
+	transition: bottom 500ms ease-in;
+}
+
+.rwrdfndsentiment-ct:hover {
+	padding: 10px 32px;
+}
+
+.rwrdfndsentiment-ct button {
+	display: inline-block;
+	vertical-align: middle;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border: 0;
+	background: #000;
+	color: #fff;
+	font-size: 14px;
+	padding: 0;
+	margin: 0 12px 0 0;
+	cursor: pointer;
+	outline: none;
+	-moz-outline: none;
+	font-size: 0;
+	width: 32px;
+	height: 32px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+.rwrdfndsentiment-ct section.rd-sentiment-about {
+	background: transparent;
+	color: #fff;
+	width: 90%;
+	margin: 0 auto;
+	display: none;
+	padding: 20px 0;
+}
+
+.rwrdfndsentiment-ct section.rd-sentiment-plug {
+	background: transparent;
+	color: #555;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 12px;
+	padding: 0;
+	text-align: center;
+}
+
+.rwrdfndsentiment-ct section.rd-sentiment-plug span {
+	display: inline-block;
+	background: #555;
+	height: 1px;
+	width: 50px;
+	vertical-align: middle;
+	margin: 0 5px;
+}
+
+.rwrdfndsentiment-ct div.rd-first-row {
+	display: none;
+}
+
+.rwrdfndsentiment-ct:hover div.rd-first-row {
+	display: block;
+}
+
+.rwrdfndsentiment-ct:hover section.rd-sentiment-plug {
+	display: none;
+}
+
+.rwrdfndsentiment-ct.more, .rwrdfndsentiment-ct.more-about {
+	padding: 10px 32px;
+}
+
+.rwrdfndsentiment-ct.more section.rd-sentiment-plug, .rwrdfndsentiment-ct.more-about section.rd-sentiment-plug {
+	display: none;
+}
+
+.rwrdfndsentiment-ct.more div.rd-first-row, .rwrdfndsentiment-ct.more-about div.rd-first-row {
+	display: block;
+}
+
+
+.rwrdfndsentiment-ct button.hundred { background-image: url('https://hooks.readefined.com/img/sentiment/100.png'); }
+.rwrdfndsentiment-ct button.angry { background-image: url('https://hooks.readefined.com/img/sentiment/angry.png'); }
+.rwrdfndsentiment-ct button.cheers { background-image: url('https://hooks.readefined.com/img/sentiment/cheers.png'); }
+.rwrdfndsentiment-ct button.clap { background-image: url('https://hooks.readefined.com/img/sentiment/clap.png'); }
+.rwrdfndsentiment-ct button.sleep { background-image: url('https://hooks.readefined.com/img/sentiment/sleep.png'); }
+.rwrdfndsentiment-ct button.cry { background-image: url('https://hooks.readefined.com/img/sentiment/cry.png'); }
+.rwrdfndsentiment-ct button.dizzy { background-image: url('https://hooks.readefined.com/img/sentiment/dizzy.png'); }
+.rwrdfndsentiment-ct button.drool { background-image: url('https://hooks.readefined.com/img/sentiment/drool.png'); }
+.rwrdfndsentiment-ct button.fire { background-image: url('https://hooks.readefined.com/img/sentiment/fire.png'); }
+
+.rwrdfndsentiment-ct button.heart { background-image: url('https://hooks.readefined.com/img/sentiment/heart.png'); }
+.rwrdfndsentiment-ct button.laugh { background-image: url('https://hooks.readefined.com/img/sentiment/laugh.png'); }
+.rwrdfndsentiment-ct button.lightbulb { background-image: url('https://hooks.readefined.com/img/sentiment/lightbulb.png'); }
+.rwrdfndsentiment-ct button.love { background-image: url('https://hooks.readefined.com/img/sentiment/love.png'); }
+.rwrdfndsentiment-ct button.money { background-image: url('https://hooks.readefined.com/img/sentiment/money.png'); }
+.rwrdfndsentiment-ct button.party { background-image: url('https://hooks.readefined.com/img/sentiment/party.png'); }
+
+.rwrdfndsentiment-ct button.rocket { background-image: url('https://hooks.readefined.com/img/sentiment/rocket.png'); }
+.rwrdfndsentiment-ct button.rolleyes { background-image: url('https://hooks.readefined.com/img/sentiment/rolleyes.png'); }
+.rwrdfndsentiment-ct button.sad { background-image: url('https://hooks.readefined.com/img/sentiment/sad.png'); }
+.rwrdfndsentiment-ct button.sick { background-image: url('https://hooks.readefined.com/img/sentiment/sick.png'); }
+.rwrdfndsentiment-ct button.soon { background-image: url('https://hooks.readefined.com/img/sentiment/soon.png'); }
+.rwrdfndsentiment-ct button.surprised { background-image: url('https://hooks.readefined.com/img/sentiment/surprised.png'); }
+.rwrdfndsentiment-ct button.think { background-image: url('https://hooks.readefined.com/img/sentiment/think.png'); }
+.rwrdfndsentiment-ct button.thumb { background-image: url('https://hooks.readefined.com/img/sentiment/thumb.png'); }
+.rwrdfndsentiment-ct button.tired { background-image: url('https://hooks.readefined.com/img/sentiment/tired.png'); }
+
+.rwrdfndsentiment-ct button.more {
+	color: #000;
+	font-size: 21px;
+	width: 50px;
+	height: 32px;
+	background: #fdca47;
+	color: #302c3b;
+	text-align: center;
+	border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	font-weight: 900;
+	letter-spacing: 2px;
+}
+
+.rwrdfndsentiment-ct button.close {
+	background-color: #302c3b;
+	text-align: center;
+	border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	background-image: url('https://hooks.readefined.com/img/sentiment/close.png');
+}
+
+.rwrdfndsentiment-ct button.about {
+	background-color: #302c3b;
+	text-align: center;
+	border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	background-image: url('https://hooks.readefined.com/img/sentiment/about.png');
+}
+
+
+
+.rwrdfndsentiment-ct .rwststage {
+	display: none;
+	width: 270px;
+}
+
+.rwrdfndsentiment-ct .rwststage button {
+	margin-bottom: 12px;
+}
+
+.rwrdfndsentiment-ct.more .rwststage {
+	display: block;
+}
+
+.rwrdfndsentiment-ct.more-about section.rd-sentiment-about {
+	display: block;
+}
+
+
+.rwrdfndsentiment-ct.thanks .rwststage, .rwrdfndsentiment-ct.more.thanks .rwststage {
+	display: none;
+}
+
+.rwrdfndsentiment-ct.fade {
+	bottom: -100px;
+}
+
+.rwrdfndsentiment-ct.thanks p {
+	margin: 0;
+	padding: 0 0 0 47px;
+	height: 32px;
+	line-height: 32px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	color: #fff;
+	font-weight: 600;
+	font-size: 16px;
+	background: url('https://hooks.readefined.com/img/sentiment/pray.png') no-repeat left center;
+	background-size: contain;
+}
+
+.rwrd-media-feedback-form {
+	display: inline-block;
+	position: relative;
+}
+
+.rwrd-media-feedback-form > div {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 50px;
+	background: #000;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	padding: 5px;
+	box-sizing: border-box;
+	display: none;
+}
+
+.rwrd-media-feedback-form:hover > div {
+	display: block;
+	width: auto;
+	-webkit-transition: -webkit-opacity 500ms ease-in;
+	-moz-transition: -moz-opacity 500ms ease-in;
+	transition: opacity 500ms ease-in;
+}
+
+.rwrd-media-feedback-form div div {
+	display: none;
+	vertical-align: middle;
+	height: 30px;
+}
+
+.rwrd-media-feedback-form div:hover div {
+	display: inline-block;
+}
+
+.rwrd-media-feedback-form button {
+	display: inline-block;
+	vertical-align: middle;
+	border: 0;
+	outline: none;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	height: 30px;
+	width: 30px;
+	border-radius: 8px;
+	background-color: #000;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	margin: 0 2px;
+	opacity: 0.4;
+}
+
+.rwrd-media-feedback-form button.heart { background-image: url('https://hooks.readefined.com/img/sentiment/heart.png'); }
+.rwrd-media-feedback-form button.thumb { background-image: url('https://hooks.readefined.com/img/sentiment/thumb.png'); }
+.rwrd-media-feedback-form button.sad { background-image: url('https://hooks.readefined.com/img/sentiment/sad.png'); }
+.rwrd-media-feedback-form button.surprised { background-image: url('https://hooks.readefined.com/img/sentiment/surprised.png'); }
+.rwrd-media-feedback-form button.think { background-image: url('https://hooks.readefined.com/img/sentiment/think.png'); }
+.rwrd-media-feedback-form button.laugh { background-image: url('https://hooks.readefined.com/img/sentiment/laugh.png'); }
+.rwrd-media-feedback-form button.fire { background-image: url('https://hooks.readefined.com/img/sentiment/fire.png'); }
+
+.rwrd-media-feedback-form button:hover {
+	background-color: #111;
+	opacity: 1;
+}
+
+article .rwrd-media-feedback-form div p {
+	margin: 0;
+	padding: 0 15px;
+	font-size: 14px;
+	color: #fff;
+}
+
+.rwrd-media-feedback-form > div.fade {
+	opacity: 0;
+}
+
+
+@media(max-width: 700px) {
+	
+	.rwrdfndsentiment-ct { 
+		left: 0;
+	    margin-left: 0;
+	    width: 100%;
+	    text-align: center;
+	}
+
+	.rwrdfndsentiment-ct button {
+		width: 64px;
+		height: 64px;
+	}
+	
+	.rwrdfndsentiment-ct button.more, .rwrdfndsentiment-ct button.close {
+		height: 64px;
+		border-radius: 32px;
+		-webkit-border-radius: 32px;
+		-moz-border-radius: 32px;
+	}
+	
+	.rwrdfndsentiment-ct .rwststage {
+		width: 60%;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.rwrdfndsentiment-ct.thanks p {
+		margin: 0;
+		padding: 0 0 0 47px;
+		height: 64px;
+		line-height: 64px;
+		font-size: 32px;
+	}
+
+}
